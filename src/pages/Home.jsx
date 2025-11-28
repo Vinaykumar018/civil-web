@@ -111,12 +111,13 @@ const Home = () => {
           <div className="space-y-4">
 
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-white/70 backdrop-blur-sm rounded-full px-6 py-3 border border-blue-200">
-              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-              <span className="text-blue-800 text-sm font-semibold">
-                Since 1999 • Trusted Government Contractor
-              </span>
-            </div>
+          <div className="inline-flex items-center gap-2 bg-white/70 backdrop-blur-sm rounded-full px-6 py-3 border border-blue-200 mt-4 sm:mt-4 md:mt-0">
+  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+  <span className="text-blue-800 text-sm font-semibold">
+    Since 1999 • Trusted Government Contractor
+  </span>
+</div>
+
 
             {/* Heading */}
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-gray-900">
